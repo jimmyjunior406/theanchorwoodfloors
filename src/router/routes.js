@@ -1,19 +1,43 @@
 import React from 'react';
 import App from '../pages/App';
 import About from '../pages/About';
-import Home from '../pages/Home';
-import Contact from '../pages/Contact';
+import Installation from '../pages/Installation';
+import Refinish from '../pages/Refinish';
+import PreUnfinished from '../pages/PreUnFinished.js';
+import SolidEngineered from '../pages/SolidEngineered';
+import Vinyl from '../pages/Vinyl';
+import Repair from '../pages/Repair';
 
 const routes = [
 	{
-		Component: Contact,
-		key: 'Contact',
-		path: '/contact'
+		Component: Installation,
+		key: 'Installation',
+		path: '/installation'
 	},
 	{
-		Component: Home,
-		key: 'Home',
-		path: '/home'
+		Component: Refinish,
+		key: 'Refinish',
+		path: '/refinish'
+	},
+	{
+		Component: PreUnfinished,
+		key: 'Prefinished/Unfinished',
+		path: '/prefinishedUnfinished'
+	},
+	{
+		Component: SolidEngineered,
+		key: 'Solid/Engineered',
+		path: '/solidEngineered'
+	},
+	{
+		Component: Repair,
+		key: 'Repair/Demolition',
+		path: '/repair'
+	},
+	{
+		Component: Vinyl,
+		key: 'Vinyl LVP',
+		path: '/vinyl'
 	},
 	{
 		Component: About,
