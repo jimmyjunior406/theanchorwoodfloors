@@ -155,6 +155,32 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/components/CarouselData.js":
+/*!****************************************!*\
+  !*** ./src/components/CarouselData.js ***!
+  \****************************************/
+/*! exports provided: CarouselData */
+/*! exports used: CarouselData */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"a\", function() { return CarouselData; });\nconst CarouselData = [{\n  image: 'https://i.imgur.com/5BSssF5.png'\n}, {\n  image: 'https://i.imgur.com/7vzENTg.png'\n}, {\n  image: 'https://i.imgur.com/zn8Qzsq.png'\n}, {\n  image: 'https://i.imgur.com/i7kpKeA.png'\n}];\n\n//# sourceURL=webpack:///./src/components/CarouselData.js?");
+
+/***/ }),
+
+/***/ "./src/components/ImageCarousel.js":
+/*!*****************************************!*\
+  !*** ./src/components/ImageCarousel.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/*! exports used: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _CarouselData__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CarouselData */ \"./src/components/CarouselData.js\");\n/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-icons/fa */ \"./node_modules/react-icons/fa/index.esm.js\");\n\n\n\n\nconst ImageCarousel = (_ref) => {\n  let {\n    items\n  } = _ref;\n  const [current, setCurrent] = Object(react__WEBPACK_IMPORTED_MODULE_0__[\"useState\"])(0);\n  const length = items.length;\n\n  const nextItem = () => {\n    setCurrent(current === length - 1 ? 0 : current + 1);\n  };\n\n  const prevItem = () => {\n    setCurrent(current === 0 ? length - 1 : current - 1);\n  };\n\n  if (!Array.isArray(items) || items.length <= 0) {\n    return null;\n  }\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"section\", {\n    className: \"slider\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_2__[/* FaArrowAltCircleLeft */ \"a\"], {\n    className: \"left\",\n    onClick: prevItem\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_2__[/* FaArrowAltCircleRight */ \"b\"], {\n    className: \"right\",\n    onClick: nextItem\n  }), _CarouselData__WEBPACK_IMPORTED_MODULE_1__[/* CarouselData */ \"a\"].map((item, index) => {\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n      className: index === current ? 'slide active' : 'slide',\n      key: index\n    }, index === current && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n      src: item.image,\n      alt: \"flooring image\",\n      className: \"image\"\n    }));\n  }));\n};\n\n/* harmony default export */ __webpack_exports__[\"a\"] = (ImageCarousel);\n\n//# sourceURL=webpack:///./src/components/ImageCarousel.js?");
+
+/***/ }),
+
 /***/ "./src/components/NavBar.js":
 /*!**********************************!*\
   !*** ./src/components/NavBar.js ***!
@@ -203,7 +229,7 @@ eval("/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"a\", function() { return App; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction App(props) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"AppPage\"\n  }, \"This is the \", props.page, \" page\", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, \"Hello World\"));\n}\n\n//# sourceURL=webpack:///./src/pages/App.js?");
+eval("/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"a\", function() { return App; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_CarouselData__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/CarouselData */ \"./src/components/CarouselData.js\");\n/* harmony import */ var _components_ImageCarousel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/ImageCarousel */ \"./src/components/ImageCarousel.js\");\n\n\n\nfunction App() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ImageCarousel__WEBPACK_IMPORTED_MODULE_2__[/* default */ \"a\"], {\n    items: _components_CarouselData__WEBPACK_IMPORTED_MODULE_1__[/* CarouselData */ \"a\"]\n  });\n}\n\n//# sourceURL=webpack:///./src/pages/App.js?");
 
 /***/ }),
 
