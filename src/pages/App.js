@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
 
 export default function App(props) {
-	return <div className="AppPage">This is the {props.page} page</div>;
+	return (
+		<div className="AppPage">
+			This is the {props.page} page
+			<div>Hello World</div>
+		</div>
+	);
 }

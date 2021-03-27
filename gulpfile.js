@@ -53,7 +53,7 @@ gulp.task('default', (cb) => {
 	 serveStatic: ['./public']
 	});
 	// SET UP WATCJERS TO LISTEN TO CHANGES IN FILES
- 	gulp.watch('./src/scss/**/*',  gulp.task('styles'));
+ 	gulp.watch('./src/css/**/*',  gulp.task('styles'));
 	gulp.watch('./src/components/**/*', gulp.task('webpack'));
 	gulp.watch('./src/*', gulp.task('webpack'))
 	// LISTEN FOR WHEN TO RELOAD PAGES
@@ -72,12 +72,7 @@ gulp.task('default', (cb) => {
 // Explanation for Students ---- This is compiles our styles
 gulp.task('styles', (cb) => {
 	gulp
-		.src('src/scss/**/*.scss')
-		.pipe(
-			sass({
-				outputStyle: 'compressed'
-			}).on('error', sass.logError)
-		)
+		.src('src/css/**/*.css')
 		.pipe(
 			autoprefixer({
 				cascade: false
