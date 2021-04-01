@@ -5,16 +5,16 @@ const PORT = process.env.PORT || 8000;
 const mongoose = require('mongoose');
 const path = require('path');
 
-const MONGODB_URI = process.env.MONGODB_URI
-const db = mongoose.connection;
+// const MONGODB_URI = process.env.MONGODB_URI
+// const db = mongoose.connection;
 
-mongoose.connect(MONGODB_URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-});
-db.on('open', () => {
-    console.log('Mongo is Connected');
-});
+// mongoose.connect(MONGODB_URI, {
+//     useNewUrlParser: true,
+//     useUnifiedTopology: true,
+// });
+// db.on('open', () => {
+//     console.log('Mongo is Connected');
+// });
 /* Middleware */
 app.use(express.json());
 if (process.env.NODE_ENV !== 'development'){
@@ -22,12 +22,7 @@ if (process.env.NODE_ENV !== 'development'){
 }
 
 /* Controller Goes Here Remove the tes*/
-app.get('/test', (req, res)=>{
-	res.status(200).json({
-		website: 'My Website',
-		info: 'Not that much'
-	})
-})
+
 /* Controller Ends here */
 //LISTENER
 
