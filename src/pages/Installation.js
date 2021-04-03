@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 
 export default function Installation(props) {
-	return <div className="InstallationsPage">This is the {props.page} page</div>;
+	return (
+		<div class="border border-gray-900">
+			<img src="https://i.imgur.com/gUZcfYP.png"></img>
+		</div>
+	);
 }

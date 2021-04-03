@@ -28,9 +28,7 @@ const ImageCarousel = ({ items }) => {
 						className={index === current ? 'slide active' : 'slide'}
 						key={index}
 					>
-						{index === current && (
-							<img src={item.image} alt="flooring image" className="image" />
-						)}
+						{index === current && <img src={item.image} className="image" />}
 					</div>
 				);
 			})}

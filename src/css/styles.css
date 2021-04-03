@@ -13,24 +13,26 @@ body {
 
 .slider {
   position: relative;
+  margin-top: -90px;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .image {
-  width: 700px;
-  height: 500px;
+  width: 800px;
+  height: 450px;
   border-radius: 8px;
   border: solid lightgray 4px;
 }
 
 .slider {
   position: relative;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -10px;
 
 }
 .left {
@@ -55,6 +57,26 @@ body {
   user-select: none;
 }
 
+.lvt {
+  position: relative;
+  display: flex;
+ 
+  align-content: center;
+  width: 300px;
+  height: 250px;
+  border-radius: 8px;
+  border: solid lightgray 4px;
+
+}
+.imgage2 {
+  position: relative;
+  display: flex;
+ 
+  align-content: center;
+  width: 300px;
+  height: 250px;
+  border-radius: 8px;
+  border: solid lightgray 4px;
 
 
 

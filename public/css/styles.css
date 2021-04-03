@@ -13,6 +13,7 @@ body {
 
 .slider {
   position: relative;
+  margin-top: -90px;
   height: 100vh;
   display: -ms-flexbox;
   display: flex;
@@ -22,21 +23,22 @@ body {
   align-items: center;
 }
 .image {
-  width: 700px;
-  height: 500px;
+  width: 800px;
+  height: 450px;
   border-radius: 8px;
   border: solid lightgray 4px;
 }
 
 .slider {
   position: relative;
-  height: 100vh;
+  height: 80vh;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
   justify-content: center;
   -ms-flex-align: center;
   align-items: center;
+  margin-top: -10px;
 
 }
 .left {
@@ -65,6 +67,21 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.lvt {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+ 
+  -ms-flex-line-pack: center;
+ 
+  align-content: center;
+  width: 300px;
+  height: 250px;
+  border-radius: 8px;
+  border: solid lightgray 4px;
+
 }
 
 
