@@ -7,12 +7,18 @@ import PreUnfinished from '../pages/PreUnFinished.js';
 import SolidEngineered from '../pages/SolidEngineered';
 import Vinyl from '../pages/Vinyl';
 import Repair from '../pages/Repair';
+import Gallery from '../pages/Gallery';
 
 const routes = [
 	{
 		Component: Installation,
 		key: 'Installation',
 		path: '/installation'
+	},
+	{
+		Component: Gallery,
+		key: 'Gallery',
+		path: '/gallery'
 	},
 	{
 		Component: Refinish,

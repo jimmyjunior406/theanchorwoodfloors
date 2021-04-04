@@ -60,7 +60,6 @@ body {
 .lvt {
   position: relative;
   display: flex;
- 
   align-content: center;
   width: 300px;
   height: 250px;
@@ -68,52 +67,3 @@ body {
   border: solid lightgray 4px;
 
 }
-.imgage2 {
-  position: relative;
-  display: flex;
- 
-  align-content: center;
-  width: 300px;
-  height: 250px;
-  border-radius: 8px;
-  border: solid lightgray 4px;
-
-
-
-/* .container {
-        position: center;
-        width: 70%;
-        display: flex;
-        justify-content: space-around;
-      }
-.floor-images {
-        width: 80%;
-        background: lightgray;
-        padding: 10px;
-        border-radius: 5px;
-        box-sizing: border-box;
-        box-shadow: 2px 2px lightgray;
-      }
-.floor-images img {
-        display: none;
-        width: 100%;
-        border-radius: 5px;
-      }
-.floor-images img:first-of-type {
-        display: block;
-      }
-.carousel-button {
-        align-self: center;
-        background: lightgray;
-        color: #888;
-        padding: 10px;
-        border-radius: 50%;
-        text-align: center;
-        box-shadow: 1px 1px #fa8d8e;
-      }
-      .floor-button:hover {
-        cursor: pointer;
-        background: #fa8d8e;
-        box-shadow: 1px 1px #f2cd99;
-        color: white;
-      } */

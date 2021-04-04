@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { CarouselData } from './CarouselData';
+import { Link } from 'react-router-dom';
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
 
 const ImageCarousel = ({ items }) => {
