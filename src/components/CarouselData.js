@@ -5,7 +5,7 @@ export const CarouselData = [
 		image: 'https://i.imgur.com/aKttwXi.jpg'
 	},
 	{
-		image: 'https://i.imgur.com/rqmAmgP.png'
+		image: 'https://i.imgur.com/JpPhSbn.png'
 	},
 	{
 		image: 'https://i.imgur.com/zn8Qzsq.png'
