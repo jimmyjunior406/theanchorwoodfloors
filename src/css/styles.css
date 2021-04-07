@@ -44,7 +44,15 @@ body {
   z-index: 10;
   cursor: pointer;
   user-select: none;
+  border: solid;
+  padding: .1%;
+  border-radius: 30%;
+  
 }
+.left:hover{
+  background: white;
+  opacity: 80%;
+} 
 
 .right {
   position: absolute;
@@ -55,7 +63,14 @@ body {
   z-index: 10;
   cursor: pointer;
   user-select: none;
+  border: solid;
+  padding: .1%;
+  border-radius: 30%;
 }
+.right:hover{
+  background: white;
+  opacity: 80%;
+} 
 
 .lvt {
   position: relative;
