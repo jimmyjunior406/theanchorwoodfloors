@@ -1,6 +1,5 @@
 import React from 'react';
 import Home from '../pages/Home';
-import About from '../pages/About';
 import Installation from '../pages/Installation';
 import Refinish from '../pages/Refinish';
 import PreUnfinished from '../pages/PreUnFinished.js';
@@ -44,11 +43,6 @@ const routes = [
 		Component: Vinyl,
 		key: 'Vinyl LVP',
 		path: '/vinyl'
-	},
-	{
-		Component: About,
-		key: 'About',
-		path: '/about'
 	},
 	{
 		Component: Home,
