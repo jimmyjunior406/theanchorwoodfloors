@@ -1,5 +1,5 @@
 import React from 'react';
-import App from '../pages/App';
+import Home from '../pages/Home';
 import About from '../pages/About';
 import Installation from '../pages/Installation';
 import Refinish from '../pages/Refinish';
@@ -51,8 +51,8 @@ const routes = [
 		path: '/about'
 	},
 	{
-		Component: App,
-		key: 'App',
+		Component: Home,
+		key: 'Home',
 		path: '/'
 	}
 ];
