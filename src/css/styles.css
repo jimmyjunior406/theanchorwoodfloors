@@ -26,6 +26,8 @@ body {
   border: solid lightgray 4px;
 }
 
+
+
 .slider {
   position: relative;
   height: 80vh;
@@ -46,7 +48,8 @@ body {
   user-select: none;
   border: solid;
   padding: .1%;
-  border-radius: 30%;
+  border-radius: 100%;
+  
   
 }
 .left:hover{
@@ -65,7 +68,8 @@ body {
   user-select: none;
   border: solid;
   padding: .1%;
-  border-radius: 30%;
+  border-radius: 100%;
+  
 }
 .right:hover{
   background: white;

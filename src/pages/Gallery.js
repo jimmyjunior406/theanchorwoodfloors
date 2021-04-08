@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 export default function Gallery(props) {
 	return (
-		<div class="flex flex-wrap max-w-md max-h-4 m-4">
+		<div class="bg-gray-200 flex flex-wrap justify-between items-center">
 			<div>
 				<img src="https://i.imgur.com/5fAY3wG.png"></img>
 			</div>
