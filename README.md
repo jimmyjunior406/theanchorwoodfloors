@@ -1,8 +1,7 @@
 # Anchor Wood Floors
 www.theanchorwoodfloors.com 
 <h1> Concept:
-<h3> Anchor Wood Floors is an existing company owned by a friend who was in need of a website for his business. This was a static website build just to crack the
-<h3> surface and have some sort of internet presense. 
+<h3> Anchor Wood Floors is an existing company owned by a friend who was in need of a website for his business. This was a static website build just to crack the surface and have some sort of internet presense. 
 <h1> Technologies Used:
 <h3> HTML
 <h3> JavaScript
