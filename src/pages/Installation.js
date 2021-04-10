@@ -8,16 +8,11 @@ export default function Installation(props) {
 				<img src="https://i.imgur.com/Vfwb5Yy.png" />
 			</div>
 			<div class="relative m-8 -ml-50px w-5/12 h-3/4 text-xl">
-				This is were the installion information is going to asdfasdf asdfasf
-				asdfa sdfa sdfa sdf asdf asdf asdf asd fasd fas dfa sdf asdf asdf asdf
-				asdf asdf asdf asdf asdf asdf asdf asd fasdf asd This is were the
-				installion information is going to asdfasdf asdfasf asdfa sdfa sdfa sdf
-				asdf asdf asdf asd fasd fas dfa sdf asdf asdf asdf asdf asdf asdf asdf
-				asdf asdf asdf asd fasdf asd This is were the installion information is
-				going to asdfasdf asdfasf asdfa sdfa sdfa sdf asdf asdf asdf asd fasd
-				fas dfa sdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asd fasdf
-				asd This is were the installion information is going to asdfasdf asdfasf
-				asdfa sdfa sdfa sdf asdf asdf asdf asd fasd fas dfa sdf asdf asdf asdf
+				We take the time to do the job right. Covering New Hampshire and
+				Massachusetts, Anchor Wood Flooring specializes hardwood installations
+				for homes and offices. Since 2008, we have be working with the most
+				respected brand names and long-lasting materials to ensure your home or
+				office is protected for many years to come.
 			</div>
 		</div>
 	);

@@ -2,12 +2,11 @@ import React from 'react';
 import Home from '../pages/Home';
 import Installation from '../pages/Installation';
 import Refinish from '../pages/Refinish';
-import PreUnfinished from '../pages/PreUnFinished.js';
-import SolidEngineered from '../pages/SolidEngineered';
+import Unfinished from '../pages/UnFinished.js';
+import Solid from '../pages/Solid';
 import Vinyl from '../pages/Vinyl';
 import Repair from '../pages/Repair';
-import Gallery from '../pages/Gallery';
-
+import About from '../pages/About';
 const routes = [
 	{
 		Component: Installation,
@@ -20,14 +19,14 @@ const routes = [
 		path: '/refinish'
 	},
 	{
-		Component: PreUnfinished,
-		key: 'Prefinished/Unfinished',
-		path: '/prefinishedUnfinished'
+		Component: Unfinished,
+		key: 'Unfinished',
+		path: '/unfinished'
 	},
 	{
-		Component: SolidEngineered,
-		key: 'Solid/Engineered',
-		path: '/solidEngineered'
+		Component: Solid,
+		key: 'Solid',
+		path: '/solid'
 	},
 	{
 		Component: Repair,
@@ -40,9 +39,9 @@ const routes = [
 		path: '/vinyl'
 	},
 	{
-		Component: Gallery,
-		key: 'Gallery',
-		path: '/gallery'
+		Component: About,
+		key: 'About',
+		path: '/about'
 	},
 	{
 		Component: Home,

@@ -29,7 +29,9 @@ const ImageCarousel = ({ items }) => {
 						}
 						key={index}
 					>
-						{index === current && <img src={item.image} className="image" />}
+						<Link to="/about">
+							{index === current && <img src={item.image} className="image" />}
+						</Link>
 						<FaArrowLeft className="left" onClick={prevItem} />
 						<FaArrowRight className="right" onClick={nextItem} />
 					</div>
