@@ -15,11 +15,6 @@ const routes = [
 		path: '/installation'
 	},
 	{
-		Component: Gallery,
-		key: 'Gallery',
-		path: '/gallery'
-	},
-	{
 		Component: Refinish,
 		key: 'Refinish',
 		path: '/refinish'
@@ -43,6 +38,11 @@ const routes = [
 		Component: Vinyl,
 		key: 'Vinyl LVP',
 		path: '/vinyl'
+	},
+	{
+		Component: Gallery,
+		key: 'Gallery',
+		path: '/gallery'
 	},
 	{
 		Component: Home,

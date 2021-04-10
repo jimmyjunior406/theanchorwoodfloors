@@ -21,15 +21,17 @@ const ImageCarousel = ({ items }) => {
 
 	return (
 		<section className="slider">
-			<FaArrowLeft className="left" onClick={prevItem} />
-			<FaArrowRight className="right" onClick={nextItem} />
 			{CarouselData.map((item, index) => {
 				return (
 					<div
-						className={index === current ? 'slide active' : 'slide'}
+						className={
+							index === current ? 'slide active relative show' : 'slide '
+						}
 						key={index}
 					>
 						{index === current && <img src={item.image} className="image" />}
+						<FaArrowLeft className="left" onClick={prevItem} />
+						<FaArrowRight className="right" onClick={nextItem} />
 					</div>
 				);
 			})}

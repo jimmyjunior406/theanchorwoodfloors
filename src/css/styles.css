@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
 @import "reset";
 @import "grid";
-
+/* *{border: 1px solid black } */
 
 body {
   
@@ -11,14 +11,6 @@ body {
    
   }
 
-.slider {
-  position: relative;
-  margin-top: -90px;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .image {
   width: 800px;
   height: 450px;
@@ -29,7 +21,7 @@ body {
 
 
 .slider {
-  position: relative;
+  /* position: relative; */
   height: 80vh;
   display: flex;
   justify-content: center;
@@ -40,7 +32,7 @@ body {
 .left {
   position: absolute;
   top: 50%;
-  left: 300px;
+  left: 15px;
   font-size: 1.5rem;
   color: #000;
   z-index: 10;
@@ -49,18 +41,26 @@ body {
   border: solid;
   padding: .1%;
   border-radius: 100%;
-  
-  
+
 }
+.slide {
+  display: none;
+}
+.show {
+  display: block;
+
+}
+
+
 .left:hover{
-  background: white;
+  background: lightgray;
   opacity: 80%;
 } 
 
 .right {
   position: absolute;
   top: 50%;
-  right: 300px;
+  right: 15px;
   font-size: 1.5rem;
   color: #000;
   z-index: 10;
@@ -72,7 +72,7 @@ body {
   
 }
 .right:hover{
-  background: white;
+  background: lightgray;
   opacity: 80%;
 } 
 
