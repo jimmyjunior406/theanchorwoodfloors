@@ -2,7 +2,7 @@ import React from 'react';
 import Home from '../pages/Home';
 import Installation from '../pages/Installation';
 import Refinish from '../pages/Refinish';
-import Unfinished from '../pages/UnFinished.js';
+import Unfinished from '../pages/Unfinished.js';
 import Solid from '../pages/Solid';
 import Vinyl from '../pages/Vinyl';
 import Repair from '../pages/Repair';
