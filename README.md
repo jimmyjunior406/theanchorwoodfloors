@@ -12,8 +12,8 @@ www.theanchorwoodfloors.com
 
 <h1>Approach:
 <h3> After several discussions with my friend about the services he provides, I was given a list of things to include on the webpage. There was no 
-<h3> discussion on layout or functionality just yet... Just pretty much, get some stuff on the web that was presentable and got the point across
-<h3> and get his phone number out there.
+ discussion on layout or functionality just yet... Just pretty much, get some stuff on the web that was presentable and got the point across
+ and get his phone number out there.
 
 <h1>Development Plan
 <h3> Design a clean, easy to use, straight to the point static website.
@@ -33,5 +33,5 @@ www.theanchorwoodfloors.com
 
 <h1>Challenges
 <h3> It was like working with a real life customer. Meeting standards, tracking them down for additional information, and relying on them for material that
-<h3> that needed to put on the site.
+that needed to put on the site.
 <h3> Also. Attaching my code through Heroku to a privately owned domain was more difficult than I anticipated.
